@@ -5,13 +5,13 @@
 	font-style: normal;
 }
 
-body {
-	margin: 30px 150px;
+.container {
+	max-width: 1000px;
 }
 
 /* Header*/
 
-.grid-header {
+.layout-header {
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
@@ -40,11 +40,14 @@ body {
 
 /*Main menu*/
 
-.grid-menu {
+.navbar {
+	background-color: #f1f1f1;
+}
+
+.navbar-menu {
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
-	background-color: #f1f1f1;
 	padding: 10px 150px;
 	margin-left: -150px;
 	margin-right: -150px;
@@ -89,7 +92,7 @@ body {
 
 .layout-page {
 	display: grid;
-	grid-template-columns: 2fr 1fr;
+	grid-template-columns: 1fr 232px;
 	grid-column-gap: 45px;
 	margin-bottom: 80px;
 }
@@ -217,7 +220,7 @@ th {
 
 /*Footer*/
 
-.grid-footer {
+.layout-footer {
 	padding-top: 22px;
 	border-top: 1px dotted #e5e5e5;
 	display: flex;
