@@ -14,15 +14,9 @@
 .layout-header {
 	display: flex;
 	justify-content: space-between;
-	align-items: baseline;
-	margin-bottom: 15px;
-}
-
-.logo {
-	color: var(--global-link-color);
-	font-family: BauhausLightCTT, arial;
-	font-size: 48px;
-  	font-weight: 300;
+	align-items: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
 .tel {
